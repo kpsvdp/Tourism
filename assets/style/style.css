@@ -1,0 +1,253 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+header h1{
+    text-align: center;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(8, 79, 112);
+}
+.menu-list {
+    float: left;
+}
+.menu-list li{
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    content: normal;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    font-weight: bold;
+    font-size: 110%;
+}
+.menu-list li a {
+    text-decoration: none;
+    color: #fff;
+}
+main img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+#background {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top:530px;
+}
+#background h3{
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#background p{
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+}
+.sub-sections {
+    width: 94%;
+    height: 500px;
+    background-color: aliceblue;
+    padding: 0% 3%;
+    margin-top: -2%;
+    
+}
+
+.sub-tile{
+    width: 23%;
+    display: inline-block;
+    margin-left:1%;
+}
+
+.sub-tile h1 {
+    text-align: center;
+}
+.sub-tile img{
+    width: 100%;
+    height: 300px; 
+}
+
+.sub-tile p{
+    margin-top: -2px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+.sub-tile p span{
+    margin-left:  15px;
+    color: #084f70; 
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 0px 3%;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #084f70;
+    color: white;
+}
+
+footer {
+    background-color: #084f70;
+    width: 100%;
+    height: 50px;
+    margin-top: -80px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 12px;
+}
+
+#content{
+    width: 90%;
+    margin: 0 3% 5% 3%;
+    padding: 2%;
+
+}
+
+#content img{
+    width: 30%;
+    height: 300px;
+}
+#content div{
+    width: 60%;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+#content h2{
+    margin-top: 0%;
+}
+
+#content p{
+    text-align: justify;
+}
+
+#content span{
+    font-weight: bold;
+}
+
+
+.container{
+    width: 450px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color:  #084f70;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+.container h1 {
+    text-align: center;
+    margin-left: 20px;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.form-input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 80px;
+}
+label{
+    padding-left: 80px;
+    font-weight: bold;
+    color: #fff;
+} 
+.login-div{
+    width: 470px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin: 70px auto;
+    border-radius: 10px;
+    background-color:  #084f70;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.5);
+}
+.login-div h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+.register{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 0px 185px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fbfcfd;
+}
+#error{
+    color: red !important;
+}
+.confirmation{
+    width: 450px;
+    height: 560px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.confirmation form input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px 80px;
+}
+.confirmation form textarea {
+    margin: 10px 80px;
+    border-radius: 10px;
+    
+}
+.confirmation form label{
+    color: black;
+}
+.confirmation .confirm{
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 0px 48%;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #084f70;
+    color: white;
+}
+
+.credits_list{
+    width: 70%;
+    margin: 2% 15%;
+}
+
+.credits_list p{
+    line-height: 1.5;
+}
+
+.report_format{
+    width: 70%;
+    margin: 3% 15%;
+}
+
+.report_format p{
+    line-height: 1.5;
+    text-align: justify;
+}
